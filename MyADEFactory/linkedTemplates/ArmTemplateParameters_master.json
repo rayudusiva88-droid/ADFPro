@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "MyADEFactory"
+		},
+		"AzureSQLDB_password": {
+			"value": ""
+		},
+		"MyADEstorage_accountKey": {
+			"value": ""
+		},
+		"AzureSQLDB_properties_typeProperties_server": {
+			"value": "myadeserver.database.windows.net"
+		},
+		"AzureSQLDB_properties_typeProperties_database": {
+			"value": "adventureworks"
+		},
+		"AzureSQLDB_properties_typeProperties_userName": {
+			"value": "siva"
+		},
+		"MyADEstorage_properties_typeProperties_url": {
+			"value": "https://myadefactorystorage.dfs.core.windows.net/"
+		},
+		"git_source_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
