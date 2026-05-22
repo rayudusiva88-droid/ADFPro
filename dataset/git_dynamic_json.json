@@ -1,0 +1,18 @@
+{
+	"name": "git_dynamic_json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MyADEstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	}
+}
