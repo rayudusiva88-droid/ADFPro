@@ -31,6 +31,10 @@
 			"type": "string",
 			"defaultValue": "https://myadefactorystorage.dfs.core.windows.net/"
 		},
+		"git_orders_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/rayudusiva88-droid/"
+		},
 		"git_source_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://raw.githubusercontent.com/"
@@ -79,6 +83,9 @@
 					},
 					"MyADEstorage_properties_typeProperties_url": {
 						"value": "[parameters('MyADEstorage_properties_typeProperties_url')]"
+					},
+					"git_orders_properties_typeProperties_url": {
+						"value": "[parameters('git_orders_properties_typeProperties_url')]"
 					},
 					"git_source_properties_typeProperties_url": {
 						"value": "[parameters('git_source_properties_typeProperties_url')]"

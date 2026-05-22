@@ -23,6 +23,9 @@
 		"MyADEstorage_properties_typeProperties_url": {
 			"value": "https://myadefactorystorage.dfs.core.windows.net/"
 		},
+		"git_orders_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/rayudusiva88-droid/"
+		},
 		"git_source_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/"
 		}
