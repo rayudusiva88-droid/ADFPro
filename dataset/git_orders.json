@@ -1,0 +1,22 @@
+{
+	"name": "git_orders",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "git_orders",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Sourcedata/refs/heads/main/orders_large.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
