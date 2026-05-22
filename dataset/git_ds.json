@@ -1,0 +1,22 @@
+{
+	"name": "git_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "git_source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/rayudusiva88-droid/Sourcedata/refs/heads/main/employees_large.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
