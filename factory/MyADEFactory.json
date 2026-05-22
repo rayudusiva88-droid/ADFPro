@@ -1,0 +1,15 @@
+{
+	"name": "MyADEFactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8a10c6d2-f157-4b72-b141-cca8a15c6a9b",
+		"tenantId": "40bb82c5-1380-4809-beaf-22f124ba998c"
+	}
+}
